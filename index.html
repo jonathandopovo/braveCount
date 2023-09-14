@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Brava</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Contador de Brava</h1>
+        <p>Valor Atual: <span id="bravasValue">0</span></p>
+        
+        <div class="bravaAdd">
+            <label for="authorInput">Autor: </label>
+            <input type="text" name="authorInput" id="authorInput">
+            <br>
+            <br>
+            <label for="bravaInput">Brava: </label>
+            <input type="text" name="bravaInput" id="bravaInput">
+             <br>
+            <button onclick="addBrava()">Bravar</button>
+        </div>
+        
+        <div class="bravaList">
+            
+
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
